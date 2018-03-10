@@ -275,7 +275,5 @@ account$paymentfrequency <- as.character(account$paymentfrequency)
 account$paymentfrequency[is.na(account$paymentfrequency)] <- "none"
 account$paymentfrequency <- as.factor(account$paymentfrequency)
 
-source("insights2.R")
-source("test_features.R")
 
 
