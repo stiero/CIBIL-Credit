@@ -1,4 +1,4 @@
-setwd("~/test data")
+#setwd("~/test data")
 
 source("conversions.R")
 
